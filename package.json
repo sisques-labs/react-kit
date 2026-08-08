@@ -1,6 +1,6 @@
 {
   "name": "@sisques-labs/react-kit",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-beta.1",
   "description": "React/Next.js Kit with framework-agnostic domain utilities, a shadcn/Radix component catalog, and Next.js-specific helpers shared across Sisques Labs frontends",
   "author": "JSisques",
   "private": false,
