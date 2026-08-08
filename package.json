@@ -45,9 +45,13 @@
     "lint:check": "eslint \"src/**/*.{ts,tsx}\"",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:changed": "vitest run --changed",
     "test:cov": "vitest run --coverage",
     "prepublishOnly": "npm run build",
     "release": "semantic-release"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": "eslint --fix"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
@@ -150,6 +154,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "husky": "^9.1.7",
     "jsdom": "^29.1.1",
+    "lint-staged": "^17.0.8",
     "prettier": "^3.0.0",
     "semantic-release": "^25.0.0",
     "tsc-alias": "^1.8.16",
